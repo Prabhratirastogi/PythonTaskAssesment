@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
 import os
-from task_1_clean_user_data import clean_user_data  # Import your function
+from task_2_clean_user_data import clean_user_data  # Import your function
 
 class TestCleanUserData(unittest.TestCase):
 
