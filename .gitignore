@@ -1,0 +1,21 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore the virtual environment
+myenv/
+
+# Ignore CSV files generated during the script execution
+new_data.csv
+user_data.csv
+
+# Ignore the SQLite database file
+db.sqlite3
+
+
+# Ignore Django migration files
+*/migrations/*.py
+*/migrations/__init__.py
+
+# Ignore log files
+*.log
