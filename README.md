@@ -15,13 +15,13 @@ This repository contains a series of Python tasks, including web scraping, data 
 
 ### Task 1: Web Scraping
 **Description:** A script that scrapes the titles and URLs of the latest articles from CNN using BeautifulSoup and requests.  
-**Files:** `scrape_cnn.py`, `test_scrape_cnn.py`  
+**Files:** `task_1_scrape_news.py`, `test_scrape_cnn.py`  
 **Functionality:**
 - Fetches and prints the latest article titles and URLs.
 
 ### Task 2: Data Cleaning
 **Description:** Reads a CSV file with user data, removes duplicates, and filters out invalid email formats.  
-**Files:** `clean_user_data.py`, `test_clean_user_data.py`  
+**Files:** `task_2_clean_user_data.py`, `test_clean_user_data.py`  
 **Functionality:**
 - Cleans user data and saves it to `new_data.csv`.
 
@@ -60,19 +60,19 @@ This repository contains a series of Python tasks, including web scraping, data 
 
 ### Task 4: Rate Limiter
 **Description:** A rate limiter that restricts the number of requests a user can make in a given time window.  
-**Files:** `rate_limiter.py`, `test_rate_limiter.py`  
+**Files:** `task_4_rate_limiter.py`, `test_rate_limiter.py`  
 **Functionality:**
 - Allows or denies requests based on user ID.
 
 ### Task 5: Data Aggregation
 **Description:** Aggregates values from a list of dictionaries based on a specified key.  
-**Files:** `aggregate_data.py`, `test_aggregate_data.py`  
+**Files:** `task_5_aggregate_data.py`, `test_aggregate_data.py`  
 **Functionality:**
 - Groups data and applies an aggregation function.
 
 ### Task 6: Find Duplicate in Array
 **Description:** Finds a duplicate number in an array using Floyd’s Tortoise and Hare algorithm.  
-**Files:** `find_duplicate.py`, `test_find_duplicate.py`  
+**Files:** `task_6_find_duplicate.py`, `test_find_duplicate.py`  
 **Functionality:**
 - Returns the duplicate number.
 
@@ -80,7 +80,7 @@ This repository contains a series of Python tasks, including web scraping, data 
 
 ### Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/repository.git
+git clone https://github.com/Prabhratirastogi/PythonTaskAssesment
 cd repository
 
 
@@ -99,6 +99,7 @@ Testing
 To run the tests for each task, navigate to the respective folder and execute:
 ```bash
 python -m unittest test_filename.py
+
 To run the tests for Task Django Model Order:
 ```bash
 python manage.py test app_name(order)
@@ -112,7 +113,7 @@ pip freeze > requirements.txt
 
 
 GitHub Repository
-You can find the repository at:[GitHub Link]
+You can find the repository at:[https://github.com/Prabhratirastogi/PythonTaskAssesment]
 
 
 
